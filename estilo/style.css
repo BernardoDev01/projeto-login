@@ -87,21 +87,46 @@ section#login > div#formulario > p {
     border-radius: 5px;
     box-shadow: 0px 0px 1px rgba(61, 60, 60, 0.316);
 }
-div.campo > label {
-    text-decoration: center;
-    padding: 15px;
+.campo > label {
+    display: none;
 }
+
+.campo > .material-symbols-outlined {
+    color: white;
+    font-size: 1em;
+    padding:5px;
+}
+
+.campo > input {
+    background-color: #f2935c13;
+    font-size: 1em;
+    width: calc(100% - 40px);
+    transform: translateY(px);
+    height: 100%;
+    border: 0px;
+}
+
+.campo > input:hover {
+    background-color: #F2935C;
+    border: 0px;
+}
+
+.campo > input:focus-within {
+    background-color: #F2935C;
+    border: 0px;
+}
+
 .botao {
     margin: auto;
     margin-top: 10px;
     display: block;
     font-size: 1em;
-    width: 100%;
+    width: 25%;
     height: 40px;
-    background-color:#f2935c78;
+    background-color:#f2935c20;
     border: none;
     border-radius: 5px;
-    box-shadow: 0px 0px 1px rgba(61, 60, 60, 0.316);
+    box-shadow: 0px 0px 3px rgba(61, 60, 60, 0.316);
 }
 .botao:hover {
     background-color: #F2935C;
