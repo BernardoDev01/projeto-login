@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 550px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to top, #BF7A7A, #F2935C, #253C59);
     }
@@ -20,9 +20,20 @@
         float: right;
         width: 70%;
     }
+
+    section#login > div#formulario > h1 {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 3em; }
+
+
+    section#login > div#formulario > p {
+        padding-top: 20px;
+        text-align: center;
+    }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 990px) {
     body {
         background-image: linear-gradient(to top, #BF7A7A, #F2935C, #253C59);
     }
@@ -40,7 +51,18 @@
     
     section#login > div#formulario {
         float: right;
-        width: 50%;
-        
+        width: 50%; 
+    }
+
+    section#login > div#formulario > h1 {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 3em;
+
+    }
+    section#login > div#formulario > p {
+        padding-top: 20px;
+        text-align: center;
     }
 }
+
